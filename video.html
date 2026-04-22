@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - FeelEric</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+    <div class="custom-cursor"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo hover-target">FeelEric.</a>
+        <div class="menu-btn hover-target" id="menu-btn">Menu.</div>
+    </nav>
+
+    <div class="menu-overlay" id="menu-overlay">
+        <div class="menu-close hover-target" id="menu-close">Close.</div>
+        <div class="menu-content-wrapper">
+            <ul class="nav-links">
+                <li><a href="gallery.html" class="hover-target"><span class="num">01</span> Profile</a></li>
+                <li><a href="video.html" class="hover-target">Video <span class="num">02</span></a></li>
+                <li><a href="about.html" class="hover-target"><span class="num">03</span> About</a></li>
+                <li><a href="mailto:info@feeleric.com" class="hover-target">Contact <span class="num">04</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="page-header">
+        <h1 class="page-title text-accent">Showreel.</h1>
+    </header>
+
+    <section class="video-section">
+
+        <div class="video-layout">
+
+            <!-- MAIN VIDEO -->
+            <div class="main-video" id="mainVideo">
+                <iframe id="videoFrame" width="100%" height="100%" src="https://www.youtube.com/embed/SvcfTiVIb_k"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- SIDE VIDEOS -->
+            <div class="side-videos">
+
+                <div class="video-card"
+                    onclick="changeVideo('SvcfTiVIb_k', 'Alterfin: supporting over 1,400 coffee farmers at Nyamurinda, Rwanda')">
+                    <h3>Alterfin: supporting over 1,400 coffee farmers at Nyamurinda, Rwanda</h3>
+                </div>
+
+                <div class="video-card" onclick="changeVideo('xORl7_YSeyY', 'Hope Haven Leadership Institute')">
+                    <h3>Hope Haven Leadership Institute</h3>
+                </div>
+
+                <div class="video-card" onclick="changeVideo('cYwusijDcfU', 'Bwiza')">
+                    <h3>Bwiza</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Let's Start Something Section -->
+    <section class="start-section" id="contact">
+        <div class="start-content">
+            <h2 class="start-title">
+                Let’s <br>
+                <a href="mailto:info@feeleric.com" class="hover-target start-link">Make It</a> <br>
+                Happen.
+            </h2>
+        </div>
+        <div class="partner-logos">
+            <img src="images/logos/Amujae-Initiative-LogoVERT3.png" alt="Amujae">
+            <img src="images/logos/anlm%20logo%20green%20new.png" alt="ANLM">
+            <img src="images/logos/download%20(1).png" alt="Partner">
+            <img src="images/logos/download%20(2).png" alt="Partner">
+            <img src="images/logos/download%20(3).png" alt="Partner">
+            <img src="images/logos/download.jpeg" alt="Partner">
+            <img src="images/logos/download.png" alt="Partner">
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">&copy; <span id="year">2026</span> FeelEric. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
