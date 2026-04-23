@@ -719,10 +719,6 @@ a {
     top: 0;
     left: 0;
 }
-.main-video {
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-    transform: scale(1.02);
-}
 
 /* Side videos */
 .side-videos {
@@ -780,7 +776,7 @@ a {
 
 /* Mobile */
 @media (max-width: 768px) {
-    .video-container {
+    .video-layout {
         grid-template-columns: 1fr;
     }
 }
